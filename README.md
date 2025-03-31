@@ -23,6 +23,7 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 | Projeto | Descrição |
 |---------|-----------|
 | [BitChordLab](./projetos/bitchordlab/) | Sistema de aprendizado de acordes para instrumentos de cordas, usando uma matriz de LED 5x5 e display OLED. |
+| [Galton Board Digital](./projetos/galton_board/) | Simulação de eventos aleatórios com visualização em display OLED e histograma. |
 
 ## Licença
 
