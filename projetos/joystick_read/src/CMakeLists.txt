@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(joystick_read joystick_read.c )
+add_executable(joystick_read joystick_read.c inc/ssd1306_i2c.c)
 
 pico_set_program_name(joystick_read "joystick_read")
 pico_set_program_version(joystick_read "0.1")
@@ -56,7 +56,7 @@ target_include_directories(joystick_read PRIVATE
 # Add any user requested libraries
 target_link_libraries(joystick_read
         hardware_adc
-        
+        hardware_i2c
         )
 
 pico_add_extra_outputs(joystick_read)
